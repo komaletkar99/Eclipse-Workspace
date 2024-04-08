@@ -1,0 +1,21 @@
+package com.ThreadMethod.Assignments;
+
+public class TestDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+		//Demo d = new Demo();
+//		System.out.println(Thread.currentThread().getPriority());
+//		Thread.currentThread().setPriority(9);
+//		System.out.println(Thread.currentThread().getPriority());
+//		d.start();
+//		d.join(10000);
+		
+		Thread t = new Thread();
+		Demo  d = new Demo();
+		d.start();
+		for(int i=0;i<5;i++) {
+			System.out.println("Main thread executing");
+		}
+	}
+
+}

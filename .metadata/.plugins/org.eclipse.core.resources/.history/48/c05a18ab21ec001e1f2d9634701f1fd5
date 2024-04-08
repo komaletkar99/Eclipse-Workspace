@@ -1,0 +1,23 @@
+package com.searilization;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
+public class SerializationDemo implements Serializable{
+	String name="komal";
+	String pass = "Komal@123";
+	
+	public static void main(String[] args) throws IOException {
+		System.out.println("serialization started");
+		SerializationDemo obj = new SerializationDemo();
+		System.out.println("name " + obj.name + "Pass " + obj.pass);
+       FileOutputStream fis = new FileOutputStream("java.txt");
+	   ObjectOutputStream oos = new ObjectOutputStream(fis);
+	   oos.writeObject(obj);
+	
+	
+	
+	}
+}

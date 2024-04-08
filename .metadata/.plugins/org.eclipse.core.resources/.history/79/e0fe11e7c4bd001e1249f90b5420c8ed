@@ -1,0 +1,10 @@
+package com.exception.handling.practice;
+
+public interface Bank{
+	public static final double
+	public abstract double deposite();
+	public double withdraw();
+	public void balanceEnquairy();
+	
+
+}

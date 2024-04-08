@@ -1,0 +1,20 @@
+package com.polymorphism;
+
+public class MethodOverloadingDemo {
+	public int add(int a, int b) {
+		return a+b;
+	}
+	
+	public int add(byte a, int b) {
+		return a-b;
+	}
+
+	public static void main(String[] args) {
+		MethodOverloadingDemo ob = new MethodOverloadingDemo();
+		//ob.add(4, 2);
+		System.out.println(ob.add(4, 2));
+		System.out.println(ob.add(7, 9));
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package fourElementSoftTechDailyTopicPractice;
+
+public class staticVariableDemo {
+	static int n=10;
+	static String name="Komal";
+	int n1=23;
+	public static void show() {
+	int n1=23;
+		System.out.println(n);
+		
+	}
+	public static void show1() {
+		System.out.println(name);
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println(n);
+		staticVariableDemo ob = new staticVariableDemo();
+//		System.out.println(ob.n1);
+		ob.show();
+		ob.show1();
+		
+//		
+
+		staticVariableDemo ob1 = new staticVariableDemo();
+//		System.out.println(ob.n1);
+		ob.show();
+		ob.show1();
+
+	}
+
+}

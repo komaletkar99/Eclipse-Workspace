@@ -1,0 +1,29 @@
+package fourElementSoftTechDailyTopicPractice;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class LargestTwoNumbers {
+
+//	3. Find Largest Two Numbers in Array in Java
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter size of the array");
+		int size = sc.nextInt();
+		System.out.println("Enter element in array");
+		int arr[] = new int[size];
+		int firstmax=0;
+		int secondLast=0;
+		for(int i=0;i<size;i++) {
+			arr[i] = sc.nextInt();
+		
+	}
+	Arrays.sort(arr);
+		firstmax  = arr.length-1;
+		System.out.println(firstmax);
+	}
+
+}

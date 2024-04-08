@@ -1,0 +1,13 @@
+package fourElementSoftTechDailyTopicPractice;
+
+public class LargestElement {
+//	2. Largest Element in Array in Java
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}

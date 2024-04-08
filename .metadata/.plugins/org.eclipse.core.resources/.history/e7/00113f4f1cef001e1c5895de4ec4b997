@@ -1,0 +1,25 @@
+package com.praticeDemo;
+
+import java.util.HashSet;
+
+public class longestConcecutive {
+	
+	public static int longestConcetive(int[] nums) {
+		if(nums==null || nums.length==0) {
+			return 0;
+		}
+		
+		HashSet<Integer>hs = new HashSet<Integer>();
+		for(int num:nums)
+	{
+			hs.add(num);
+			
+	}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

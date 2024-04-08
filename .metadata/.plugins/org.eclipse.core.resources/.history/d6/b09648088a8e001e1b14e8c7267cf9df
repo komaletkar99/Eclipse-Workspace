@@ -1,0 +1,34 @@
+package javaAllPractice;
+class parent{
+	private int id;
+	private String name;
+	
+	public void getId() {
+		this.id = id;
+	}
+	
+	public int setId(int id) {
+		return this.id=id;
+	}
+	
+	public void getName() {
+		this.name=name;
+	}
+	public String setName(String name) {
+		return this.name=name;
+	}
+}
+public class encapsulation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		parent p = new parent();
+		p.setId(01);
+		p.setName("komal");
+		
+		System.out.println(p.getId());
+		
+		
+	}
+
+}

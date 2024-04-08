@@ -1,0 +1,20 @@
+package programsdemo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class demoHashMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap<String, Integer> obj = new HashMap<String, Integer>();
+		obj.put("Komal", 10);
+		obj.put("raosaheb", 20);
+		obj.put("etkar", 30);
+		obj.put("adhav", 40);
+		
+	System.out.println();)
+
+	}
+
+}

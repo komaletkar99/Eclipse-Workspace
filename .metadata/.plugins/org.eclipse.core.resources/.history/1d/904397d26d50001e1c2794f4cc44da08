@@ -1,0 +1,30 @@
+package programsdemo;
+
+public class countCharFromString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "google.com";
+		int[] freq = new int[s.length()];
+		char[] str = s.toCharArray();
+		for(int i=0;i<s.length();i++) {
+			freq[i]=1;
+			for(int j=i;j<s.length();j++) {
+			if(s.charAt(i)== s.charAt(j)) {
+				str[i]++;
+			}
+		
+			
+			}
+			
+			
+			}
+		for(int i=0;i<freq.length;i++) {
+			if(str[i] != ' ' && str[i] != 0)
+		  System.out.println(str[i] + "-" + freq[i]);  
+	}
+	}
+
+	}
+
+

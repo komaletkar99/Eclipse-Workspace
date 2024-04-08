@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.javatechie.factorial_project.FibonacciTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in com.javatechie.factorial_project.FibonacciTest
+calculate_6(com.javatechie.factorial_project.FibonacciTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<13> but was:<1>
+	at com.javatechie.factorial_project.FibonacciTest.calculate_6(FibonacciTest.java:50)
+

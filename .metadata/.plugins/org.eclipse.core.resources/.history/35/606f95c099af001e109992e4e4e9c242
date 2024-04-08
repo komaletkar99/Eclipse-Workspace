@@ -1,0 +1,26 @@
+package com.exception.handling.practice;
+
+import java.io.IOException;
+
+public class trywithmultiplecatch {
+
+	public static void main(String[] args) {
+		try {
+			String s = null;
+			//System.out.println(10/0);
+		}
+		catch (ArithmeticException e) {
+			System.out.println("Arithematic Exception");
+		}
+		catch (IndexOutOfBoundsException e) {
+			System.out.println("IndexOutOfBounds Exception");
+		}
+		catch (NullPointerException e) {
+			System.out.println("Exception Exception");
+		}
+		catch (Throwable e) {
+			System.out.println("Parent class Exception");
+		}
+	}
+
+}

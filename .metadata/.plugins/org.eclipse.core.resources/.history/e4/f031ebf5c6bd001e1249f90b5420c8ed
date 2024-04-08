@@ -1,0 +1,17 @@
+package com.exception.handling.practice;
+
+public class Hdfc extends kotak {
+
+	@Override
+	public double withdraw() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void balanceEnquairy() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.jdbc.crud.demo;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+public class CrudDemo {
+	Scanner sc = new Scanner(System.in);
+	
+	public void createTable() throws ClassNotFoundException, SQLException {
+		Connection con = DbConnection.getConnection();
+		
+		String create = "create table Student(studentId int, studentName varchar(20),  studentCity varchar(20), "
+				+ "StudentGender varchar(20), studentState varchar(20), studentCountry varchar(20))";
+		
+		PreparedStatement ps = con.prepareStatement(create);
+		
+		ps.executeUpdate();
+		
+		System.out.println("Table created sucessfully");
+		
+		ps.close();
+		
+		con.close();
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.jdc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class CrudDemo {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Connection con = Connectionconfig.getConnection();
+		Student s = new Student();
+		String create = "create table student(id int ,"
+		+ "name varchar(20),"
+		+ "city varchar(21),"
+		+ "age int)";
+
+		
+		PreparedStatement ps = con.prepareStatement(create);
+		ps.executeUpdate();
+		
+		System.out.println("table created sucessfully");
+		con.close();
+		ps.close();
+	}
+
+}

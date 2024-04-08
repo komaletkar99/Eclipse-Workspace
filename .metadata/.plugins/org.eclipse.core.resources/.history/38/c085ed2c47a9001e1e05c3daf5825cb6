@@ -1,0 +1,67 @@
+package Assignments;
+
+public class Person {
+	private String FirstName;
+	private String LastName;
+	private String Gender;
+	private String DateOfBirth;
+	private String Occupation;
+	public String getFirstName() {
+		return FirstName;
+	}
+	public void setFirstName(String firstName) {
+		FirstName = firstName;
+	}
+	public String getLastName() {
+		return LastName;
+	}
+	public void setLastName(String lastName) {
+		LastName = lastName;
+	}
+	public String getGender() {
+		return Gender;
+	}
+	public void setGender(String gender) {
+		Gender = gender;
+	}
+	public String getDateOfBirth() {
+		return DateOfBirth;
+	}
+	public void setDateOfBirth(String dateOfBirth) {
+		DateOfBirth = dateOfBirth;
+	}
+	public String getOccupation() {
+		return Occupation;
+	}
+	public void setOccupation(String occupation) {
+		Occupation = occupation;
+	}
+	
+	
+
+}
+class Employee extends Person{
+	int EmpId;
+	String EmpName;
+	double EmpSalary;
+	String EmpCity;
+	public Employee(int empId, String empName, double empSalary, String empCity) {
+		super();
+		EmpId = empId;
+		EmpName = empName;
+		EmpSalary = empSalary;
+		EmpCity = empCity;
+	}
+	@Override
+	public String toString() {
+		return "Employee [EmpId=" + EmpId + ", EmpName=" + EmpName + ", EmpSalary=" + EmpSalary + ", empCity="
+				+ EmpCity + "]";
+	}
+	
+	
+	public static void main(String[] args) {
+		Person p = new Employee(1001, "Jyoti", 5454.54, "Pune");
+		p.toString();
+	}
+
+}

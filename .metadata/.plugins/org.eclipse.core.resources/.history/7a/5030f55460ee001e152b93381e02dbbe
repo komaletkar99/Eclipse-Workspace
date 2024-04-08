@@ -1,0 +1,12 @@
+package com.jdc;
+
+import java.sql.SQLException;
+
+public class testCrud {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		CrudDemo c = new CrudDemo();
+		c.createTable();
+	}
+
+}

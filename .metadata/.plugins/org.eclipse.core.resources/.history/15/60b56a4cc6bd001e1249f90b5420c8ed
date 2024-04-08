@@ -1,0 +1,19 @@
+package com.exception.handling.practice;
+
+public abstract class kotak implements Bank {
+	public double balance;
+	@Override
+	public deposite(double amount) {
+		
+		return 0;
+	}
+
+	@Override
+	public abstract double withdraw(double amount) ;
+
+	@Override
+	public abstract void balanceEnquairy();
+
+	
+
+}

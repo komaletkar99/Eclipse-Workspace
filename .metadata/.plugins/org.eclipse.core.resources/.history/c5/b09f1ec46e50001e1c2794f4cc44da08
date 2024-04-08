@@ -1,0 +1,21 @@
+package programsdemo;
+
+//abstraction
+
+abstract class demo{
+	public abstract void show();
+}
+
+class demo1 extends demo{
+	public void show() {
+		System.out.println("this is a method");
+	}
+}
+public class practice {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      demo1 obj = new demo1();
+      obj.show();
+	}
+
+}

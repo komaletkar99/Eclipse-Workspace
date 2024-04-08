@@ -1,0 +1,12 @@
+package com.ThreadMethod.Assignments;
+
+public class TestMyThread {
+
+	public static void main(String[] args) throws InterruptedException {
+		MyThread mt = new MyThread();
+		mt.start();
+		
+
+	}
+
+}

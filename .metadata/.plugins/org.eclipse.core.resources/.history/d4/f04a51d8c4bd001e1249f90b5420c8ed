@@ -1,0 +1,7 @@
+package com.exception.handling.practice;
+
+public interface Bank{
+	public double deposite;
+	
+
+}

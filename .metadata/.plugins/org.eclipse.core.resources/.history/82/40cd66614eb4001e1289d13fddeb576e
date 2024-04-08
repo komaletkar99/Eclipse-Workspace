@@ -1,0 +1,17 @@
+package com.ThreadMethod.Assignments;
+
+public class TestMyThread {
+
+	public static void main(String[] args) throws InterruptedException {
+		MyThread mt = new MyThread();
+		mt.start();
+		for(int i=1;i<=5;i++) {
+			mt.wait();
+			mt.notify();
+			
+			System.out.println("Main Thread");
+		}
+
+	}
+
+}

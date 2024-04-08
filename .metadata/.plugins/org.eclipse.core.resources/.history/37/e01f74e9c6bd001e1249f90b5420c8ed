@@ -1,0 +1,22 @@
+package com.exception.handling.practice;
+
+public abstract class kotak implements Bank {
+	public double balance;
+	@Override
+	public double deposite(double amount)throws InsufficientBalanceException {
+		if(balance<=0) {
+			throw new InsufficientBalanceException("provided amount is invalid");
+		}
+		
+		return 0;
+	}
+
+	@Override
+	public abstract double withdraw(double amount) ;
+
+	@Override
+	public abstract void balanceEnquairy();
+
+	
+
+}

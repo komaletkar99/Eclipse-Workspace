@@ -1,0 +1,16 @@
+package fourElementSoftTechDailyTopicPractice;
+
+public class findNoOfElment {
+
+//	1. Find Number of Elements in an Array in Java
+//
+//	2. Largest Element in Array in Java
+//
+//	3. Find Largest Two Numbers in Array in Java
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

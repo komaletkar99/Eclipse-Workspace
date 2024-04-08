@@ -1,0 +1,16 @@
+package com.ThreadMethod.Assignments;
+
+public class TestDemo {
+
+	public static void main(String[] args) {
+		Demo d = new Demo();
+		System.out.println(d.getPriority());
+		System.out.println(Thread.currentThread().getPriority());
+		d.start();
+		for(int i=0;i<5;i++) {
+			
+			System.out.println("Main thread executing");
+		}
+	}
+
+}

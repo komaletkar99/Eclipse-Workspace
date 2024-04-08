@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.jan292024.practice.OppsConceptDemo&apos; to &apos;InheritanceDemo&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original element: &apos;com.jan292024.practice.OppsConceptDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jan292024.practice.InheritanceDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OppsConceptDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.jan292024.practice{OppsConceptDemo.java[OppsConceptDemo" matchStrategy="1" name="InheritanceDemo" qualified="false" references="true" similarDeclarations="false" stamp="1706513400499" textual="false" version="1.0"/>
+</session>
